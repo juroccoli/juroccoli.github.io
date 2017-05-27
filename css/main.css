@@ -1,0 +1,77 @@
+@font-face {
+    
+    font-family:"mainfont";
+    src: local('nanum'),
+        url(naumsquare.ttf);
+    
+}
+
+
+p, h1, h2, h3, h4, h5, h6, span, strong {
+    
+    font-family: "mainfont", "nanumsquare", "serif";
+    transform: rotate(-0.005deg);
+}
+
+
+.background {
+    background-image: url(../img/cat1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding-top: 100px;
+}
+
+
+
+.navbar-default {
+    background-color: black;
+}
+
+.fish img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.fish p {
+    color: coral;
+    text-align: center;
+}
+
+.fish h1 {
+    color: red;
+    text-align: center;
+}
+
+
+.form-group {
+    color: black;
+}
+
+
+
+.fform {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    max-width: 700px;
+}
+
+.fform p {
+    
+    text-align: center;
+    
+}
+
+
+
+@media screen and (max-width:768px) {
+    .background {
+        height: 400px;
+    }
+}
+.cat {
+    color: aliceblue;
+}
